@@ -4,7 +4,7 @@ print("猜数字游戏开始")
 while True:#设置无限循环
     guess_num=int(input("请输入你要猜的数字:"))
     if guess_num in range(0,100):
-        true_num=random.randint(0,100)#随机生成一个100以内的整数
+        true_num=random.randint(0,100)#随机生成一个100以内的整数    # 如果先生成随机数，后猜测，可以减少一层条件语句
         count=1#设置一个计数器
         while guess_num != true_num:
             if guess_num<true_num:
