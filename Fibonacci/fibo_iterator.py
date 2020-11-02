@@ -2,11 +2,11 @@
 '''
 用迭代器实现斐波那契前n项数列
 '''
-class Fibonacci():    #创建类来实现迭代
+class Fibonacci():    #创建类来实现迭代  ## 去掉括号
 
     def __init__(self,n):    #进行初始化    
         self.n = n    #n是数列生成的个数
-        self.value = 0    #当前生成的第几个数据，用于与下一个位置的值比较
+        self.value = 0    #当前生成的第几个数据，用于与下一个位置的值比较   ## 这个属性可以去掉
         self.num1 = 0
         self.num2 = 1
 
